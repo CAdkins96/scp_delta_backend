@@ -34,7 +34,7 @@ app.get('/agent/:id',function(req,res){
 app.post('/agent',function(req,res){
   let Project = new project({
     "name": req.body.name,
-    "classification": req.body.classification,
+    "playbook": req.body.playbook,
     "clearance": req.body.clearance,
     "supervisor": req.body.supervisor,
     "taskForce": req.body.taskForce,

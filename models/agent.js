@@ -7,7 +7,7 @@ const agentSchema = new Schema({
     name: {
         type: String
     },
-    classification: {
+    playbook: {
         type: String
     },
     clearance: {
